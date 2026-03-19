@@ -8,7 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnEstrazione" Content="ESTRAI" HorizontalAlignment="Left" Height="214" Margin="26,181,0,0" VerticalAlignment="Top" Width="336" Click="btnEstrazione_Click" FontSize="40"/>
-        <TextBlock x:Name="textBoxEstratti" HorizontalAlignment="Left" Height="376" Margin="400,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" FontSize="20"/>
-        
+        <TextBox x:Name="txtBoxNumeriEstratti" HorizontalAlignment="Left" Height="166" Margin="26,10,0,0" TextWrapping="Wrap" Text="Inserire il numero delle lettere che si vuole estrarre da 1 a 20" VerticalAlignment="Top" Width="168" FontSize="20"/>
+        <Button Content="Conferma numero" HorizontalAlignment="Left" Height="166" Margin="194,10,0,0" VerticalAlignment="Top" Width="168" Click="NumeroLettere_Click" FontSize="20"/>
+        <ListBox x:Name="lbxLettereEstratte" HorizontalAlignment="Left" Height="385" Margin="376,10,0,0" VerticalAlignment="Top" Width="414"/>
+
     </Grid>
 </Window>
